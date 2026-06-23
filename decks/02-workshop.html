@@ -45,6 +45,8 @@
   .lead{font-size:1.18rem;line-height:1.5}
   b,strong{font-weight:700}
   em{font-style:italic}
+  a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--rule)}
+  a:hover{border-bottom-color:var(--accent)}
   .hr{border:0;border-top:1px solid var(--rule);margin:1.2rem 0}
   .kicker{text-transform:uppercase;letter-spacing:.14em;color:var(--accent);font-size:.78rem;font-weight:700;margin:0 0 .5rem}
   .mantra{font-size:1.35rem;line-height:1.4;font-weight:600;border-left:3px solid var(--accent);padding-left:1rem;margin:1.2rem 0;max-width:62ch}
@@ -101,6 +103,10 @@
   code{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;font-size:.95em;background:var(--faint);padding:.05em .35em;border-radius:3px}
 
   .note{font-size:.95rem;color:var(--soft);margin-top:.6rem}
+
+  /* resource list */
+  .res li{margin:.3rem 0;line-height:1.4}
+  .res .why{display:block;font-size:.86rem;color:var(--soft);line-height:1.32}
 
   /* chrome */
   .chrome{position:fixed;left:0;right:0;bottom:0;display:flex;align-items:center;justify-content:space-between;padding:.6rem 1.1rem;font-size:.86rem;color:var(--soft)}
@@ -451,7 +457,50 @@
     <p class="mantra">You're judged on restraint and honesty, not cleverness. A plain prompt that solved it beats an elaborate agent that impressed.</p>
   </section>
 
-  <!-- 20 — CLOSING -->
+  <!-- 20 — FURTHER RESOURCES -->
+  <section class="slide">
+    <p class="kicker">Keep going · go deeper</p>
+    <h2>Where to go <span class="ac">next</span>.</h2>
+    <p class="sub">The ideas behind this workshop, in the words of the people who shaped them.</p>
+    <div class="pair">
+      <div class="col">
+        <p class="rail">The pattern itself</p>
+        <ul class="res tight">
+          <li><a href="https://x.com/karpathy/status/2039805659525644595">Karpathy — “LLM Knowledge Bases”</a>
+            <span class="why">The viral tweet that started it: use LLMs to grow a knowledge base, not just write code.</span></li>
+          <li><a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f">Karpathy — <code>llm-wiki</code> gist</a>
+            <span class="why">The blueprint this repo implements: immutable sources, an LLM-owned wiki, a schema.</span></li>
+        </ul>
+        <p class="rail">Read</p>
+        <ul class="res tight">
+          <li><a href="https://hamel.dev/blog/posts/evals-faq/">Hamel Husain &amp; Shreya Shankar — Evals FAQ</a>
+            <span class="why">Error analysis and binary pass/fail — the backbone of Module 04.</span></li>
+          <li><a href="https://medium.com/p/709bbdbd06f8">Ryan Lingo — “What Do We Mean by Learning?”</a>
+            <span class="why">Eight kinds of learning — names the work your learning log captures.</span></li>
+          <li><a href="https://x.com/a16z/status/2042014774691819943">a16z / Steven Sinofsky — on AI in firms</a>
+            <span class="why">Why making your process explicit is the hard part — exactly what <code>AGENTS.md</code> forces.</span></li>
+        </ul>
+      </div>
+      <div class="col">
+        <p class="rail">Watch</p>
+        <ul class="res tight">
+          <li><a href="https://youtu.be/s7_NlkBwdj8">François Chollet — It’s Not About Scale, It’s About Abstraction</a>
+            <span class="why">Intelligence is abstraction, not memorization — why you stay the critical thinker in the loop.</span></li>
+          <li><a href="https://youtu.be/lhYGXYeMq_E">Kenneth Stanley — Why Greatness Cannot Be Planned</a>
+            <span class="why">Objectives can deceive; open-ended exploration compounds — like a wiki you keep feeding.</span></li>
+        </ul>
+        <p class="rail">Books</p>
+        <ul class="res tight">
+          <li><a href="https://en.wikipedia.org/wiki/Algorithms_to_Live_By">Algorithms to Live By</a> — Christian &amp; Griffiths
+            <span class="why">When to stop tuning, when to explore vs. exploit — the restraint behind “lowest rung that works.”</span></li>
+          <li><a href="https://en.wikipedia.org/wiki/The_Model_Thinker">The Model Thinker</a> — Scott E. Page
+            <span class="why">Reason in many models at once — the habit of mind a linked wiki is built to support.</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 21 — CLOSING -->
   <section class="slide">
     <p class="kicker">To wrap up</p>
     <h2>Stay the critical thinker in the loop.</h2>
@@ -459,7 +508,7 @@
     makes the wiki more useful <em>and</em> more trustworthy than before.</p>
     <p class="lead">Three things stay yours: <b>the purpose</b>, <b>the standards</b>, and <b>the acceptance</b>.
     The agent does the legwork.</p>
-    <p class="mantra">Use the lowest rung that works.<br>Document everything.<br>Trust nothing you haven't checked.</p>
+    <p class="mantra">Start small.<br>Write it down.<br>Verify before you trust.</p>
   </section>
 
 </div>

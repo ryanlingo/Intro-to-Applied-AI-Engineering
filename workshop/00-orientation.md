@@ -38,7 +38,7 @@ And the throughline that ties them together: [**learning with AI**](05-learning-
 
 ## The mantra
 
-> Use the lowest rung that works. Document everything. Trust nothing you have not checked.
+> Start small. Write it down. Verify before you trust.
 
 ---
 

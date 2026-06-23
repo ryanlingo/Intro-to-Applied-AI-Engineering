@@ -114,10 +114,15 @@ The workshop is six short modules. Each adds one piece of the engine.
 | [`sources/`](sources/README.md) | Raw, immutable inputs. The agent reads these; it never edits them. |
 | [`wiki/`](wiki/index.md) | The agent-owned knowledge base: an index, two logs, an eval set, and concept pages. |
 | [`decks/`](decks/README.md) | Slide decks — the visual companion to the concepts. Present from them or just read them. |
+| [`RESOURCES.md`](RESOURCES.md) | Further reading and watching — the ideas this workshop is built on, with notes on how each connects. |
 
 ## The mantra
 
-> Use the lowest rung that works. Document everything. Trust nothing you haven't checked.
+> Start small. Write it down. Verify before you trust.
+
+## Further resources
+
+Want to go deeper on the ideas behind this workshop? See [`RESOURCES.md`](RESOURCES.md) for a short, annotated list — Karpathy's LLM-wiki pattern, the evals discipline behind Module 04, and a few talks and books on staying the critical thinker in the loop.
 
 ---
 

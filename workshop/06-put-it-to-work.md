@@ -35,7 +35,7 @@ You are judged on **restraint and honesty**, not cleverness. A plain prompt that
 
 The wiki does not end here. As your capstone moves forward, new material goes in `sources/`; the agent keeps the wiki current; the logs keep growing; the eval set keeps it honest. You have built something that compounds: every source you add and every failure you catch makes it more useful and more trustworthy than before.
 
-> Use the lowest rung that works. Document everything. Trust nothing you have not checked.
+> Start small. Write it down. Verify before you trust.
 
 ---
 
